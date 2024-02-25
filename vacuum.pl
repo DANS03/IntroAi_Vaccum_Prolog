@@ -18,7 +18,6 @@ nodo8(limpia,limpia,der). %(1,1,2)
 
 %Definir un grafo dirigido con costos en las aristas ( del 2-4 camino izq, del 5-7 camino der)
 
-grafo([nodo1, nodo2, nodo3, nodo4, nodo5, nodo6, nodo7, nodo8]).
 arista(nodo1, nodo2, 10). %Cambio de habitacion
 arista(nodo2, nodo3, 5).  %Limpia
 arista(nodo3, nodo4, 10). %Cambio de habitacion
